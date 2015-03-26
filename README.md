@@ -13,3 +13,7 @@ To reconstruct the VM, use a tool called Vagrant. Go to the checkout directory a
 
 Work in progress.
 
+## Credits
+
+* https://github.com/samoht/ocaml-emacs-settings.git
+* https://github.com/avsm/vagrant-opam
