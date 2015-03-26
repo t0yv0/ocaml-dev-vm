@@ -10,7 +10,7 @@ OPAM_PKG="$(OPAM_PKG) menhir merlin oasis ocp-indent ocp-index ssl utop"
 opam init -a --yes
 eval `opam config env`
 opam switch 4.02.1 --yes
-opam install $OPAM_PACKAGES --yes
+opam install $OPAM_PKG --yes
 
 # config files
 cp /vagrant/.emacs ~/.emacs
